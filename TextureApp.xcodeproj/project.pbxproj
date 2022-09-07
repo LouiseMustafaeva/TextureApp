@@ -10,20 +10,38 @@
 		B76B980328C8A0E2007D2578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B980228C8A0E2007D2578 /* AppDelegate.swift */; };
 		B76B980528C8A0E2007D2578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B980428C8A0E2007D2578 /* SceneDelegate.swift */; };
 		B76B980728C8A0E2007D2578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B980628C8A0E2007D2578 /* ViewController.swift */; };
-		B76B980A28C8A0E2007D2578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76B980828C8A0E2007D2578 /* Main.storyboard */; };
 		B76B980C28C8A0E3007D2578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76B980B28C8A0E3007D2578 /* Assets.xcassets */; };
 		B76B980F28C8A0E3007D2578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76B980D28C8A0E3007D2578 /* LaunchScreen.storyboard */; };
+		B76B981728C8BBF2007D2578 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B981628C8BBF2007D2578 /* BaseNode.swift */; };
+		B76B981928C8BC08007D2578 /* BaseCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B981828C8BC08007D2578 /* BaseCellNode.swift */; };
+		B76B981B28C8BC53007D2578 /* HomePresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B981A28C8BC53007D2578 /* HomePresentation.swift */; };
+		B76B981D28C8BC8E007D2578 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B981C28C8BC8E007D2578 /* HomeDataSource.swift */; };
+		B76B981F28C8BCB2007D2578 /* BaseImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B981E28C8BCB2007D2578 /* BaseImageCell.swift */; };
+		B76B982128C8BCD6007D2578 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B982028C8BCD6007D2578 /* NewsFeedCell.swift */; };
+		B76B982328C8BD0C007D2578 /* FeedImageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B982228C8BD0B007D2578 /* FeedImageNode.swift */; };
+		B76B982528C8BD20007D2578 /* HeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B982428C8BD20007D2578 /* HeaderNode.swift */; };
+		C74E555B742FDEE4D6738A0D /* Pods_TextureApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523C2315D517E951E9156B6C /* Pods_TextureApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2448690425290B19E0E07C0C /* Pods-TextureApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureApp.release.xcconfig"; path = "Target Support Files/Pods-TextureApp/Pods-TextureApp.release.xcconfig"; sourceTree = "<group>"; };
+		523C2315D517E951E9156B6C /* Pods_TextureApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76B97FF28C8A0E2007D2578 /* TextureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76B980228C8A0E2007D2578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B76B980428C8A0E2007D2578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B76B980628C8A0E2007D2578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B76B980928C8A0E2007D2578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B76B980B28C8A0E3007D2578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76B980E28C8A0E3007D2578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B76B981028C8A0E3007D2578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76B981628C8BBF2007D2578 /* BaseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		B76B981828C8BC08007D2578 /* BaseCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellNode.swift; sourceTree = "<group>"; };
+		B76B981A28C8BC53007D2578 /* HomePresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresentation.swift; sourceTree = "<group>"; };
+		B76B981C28C8BC8E007D2578 /* HomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		B76B981E28C8BCB2007D2578 /* BaseImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImageCell.swift; sourceTree = "<group>"; };
+		B76B982028C8BCD6007D2578 /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		B76B982228C8BD0B007D2578 /* FeedImageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageNode.swift; sourceTree = "<group>"; };
+		B76B982428C8BD20007D2578 /* HeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderNode.swift; sourceTree = "<group>"; };
+		DB163703B0F621C9E1CDBC36 /* Pods-TextureApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureApp.debug.xcconfig"; path = "Target Support Files/Pods-TextureApp/Pods-TextureApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74E555B742FDEE4D6738A0D /* Pods_TextureApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12AA65986BF66DF09B652FF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB163703B0F621C9E1CDBC36 /* Pods-TextureApp.debug.xcconfig */,
+				2448690425290B19E0E07C0C /* Pods-TextureApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B76B97F628C8A0E2007D2578 = {
 			isa = PBXGroup;
 			children = (
 				B76B980128C8A0E2007D2578 /* TextureApp */,
 				B76B980028C8A0E2007D2578 /* Products */,
+				12AA65986BF66DF09B652FF8 /* Pods */,
+				F13CC43FEF7DE1F6A9560760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,52 @@
 			children = (
 				B76B980228C8A0E2007D2578 /* AppDelegate.swift */,
 				B76B980428C8A0E2007D2578 /* SceneDelegate.swift */,
-				B76B980628C8A0E2007D2578 /* ViewController.swift */,
-				B76B980828C8A0E2007D2578 /* Main.storyboard */,
+				B76B982828C8E516007D2578 /* Base */,
+				B76B982728C8E508007D2578 /* Controller */,
+				B76B981A28C8BC53007D2578 /* HomePresentation.swift */,
+				B76B981C28C8BC8E007D2578 /* HomeDataSource.swift */,
+				B76B982628C8E4F3007D2578 /* Nodes */,
 				B76B980B28C8A0E3007D2578 /* Assets.xcassets */,
 				B76B980D28C8A0E3007D2578 /* LaunchScreen.storyboard */,
 				B76B981028C8A0E3007D2578 /* Info.plist */,
 			);
 			path = TextureApp;
+			sourceTree = "<group>";
+		};
+		B76B982628C8E4F3007D2578 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				B76B981E28C8BCB2007D2578 /* BaseImageCell.swift */,
+				B76B982028C8BCD6007D2578 /* NewsFeedCell.swift */,
+				B76B982428C8BD20007D2578 /* HeaderNode.swift */,
+				B76B982228C8BD0B007D2578 /* FeedImageNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		B76B982728C8E508007D2578 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B76B980628C8A0E2007D2578 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B76B982828C8E516007D2578 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B76B981628C8BBF2007D2578 /* BaseNode.swift */,
+				B76B981828C8BC08007D2578 /* BaseCellNode.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F13CC43FEF7DE1F6A9560760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523C2315D517E951E9156B6C /* Pods_TextureApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B76B981328C8A0E3007D2578 /* Build configuration list for PBXNativeTarget "TextureApp" */;
 			buildPhases = (
+				1D45AE764BC6AB1F34E0729A /* [CP] Check Pods Manifest.lock */,
 				B76B97FB28C8A0E2007D2578 /* Sources */,
 				B76B97FC28C8A0E2007D2578 /* Frameworks */,
 				B76B97FD28C8A0E2007D2578 /* Resources */,
+				4A74EFF444DFC80B99EC69DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +198,75 @@
 			files = (
 				B76B980F28C8A0E3007D2578 /* LaunchScreen.storyboard in Resources */,
 				B76B980C28C8A0E3007D2578 /* Assets.xcassets in Resources */,
-				B76B980A28C8A0E2007D2578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D45AE764BC6AB1F34E0729A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A74EFF444DFC80B99EC69DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureApp/Pods-TextureApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureApp/Pods-TextureApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextureApp/Pods-TextureApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B76B97FB28C8A0E2007D2578 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76B981B28C8BC53007D2578 /* HomePresentation.swift in Sources */,
 				B76B980728C8A0E2007D2578 /* ViewController.swift in Sources */,
+				B76B981D28C8BC8E007D2578 /* HomeDataSource.swift in Sources */,
 				B76B980328C8A0E2007D2578 /* AppDelegate.swift in Sources */,
+				B76B981F28C8BCB2007D2578 /* BaseImageCell.swift in Sources */,
+				B76B982128C8BCD6007D2578 /* NewsFeedCell.swift in Sources */,
+				B76B981928C8BC08007D2578 /* BaseCellNode.swift in Sources */,
+				B76B981728C8BBF2007D2578 /* BaseNode.swift in Sources */,
 				B76B980528C8A0E2007D2578 /* SceneDelegate.swift in Sources */,
+				B76B982528C8BD20007D2578 /* HeaderNode.swift in Sources */,
+				B76B982328C8BD0C007D2578 /* FeedImageNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B76B980828C8A0E2007D2578 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B76B980928C8A0E2007D2578 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B76B980D28C8A0E3007D2578 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +394,7 @@
 		};
 		B76B981428C8A0E3007D2578 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB163703B0F621C9E1CDBC36 /* Pods-TextureApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +405,6 @@
 				INFOPLIST_FILE = TextureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +422,7 @@
 		};
 		B76B981528C8A0E3007D2578 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2448690425290B19E0E07C0C /* Pods-TextureApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +433,6 @@
 				INFOPLIST_FILE = TextureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
